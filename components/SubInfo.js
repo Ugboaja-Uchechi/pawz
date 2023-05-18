@@ -38,7 +38,7 @@ export const EthPrice = ({ price }) => {
   );
 };
 
-export const EndDate = () => {
+export const EndDate = ({ countdown }) => {
   return (
     <View
       style={{
@@ -67,13 +67,14 @@ export const EndDate = () => {
           color: COLORS.primary,
         }}
       >
-        12h 30m
+        
+        {countdown}
       </Text>
     </View>
   );
 };
 
-export const SubInfo = () => {
+export const SubInfo = ({ countdown }) => {
   return (
     <View
       style={{
@@ -84,7 +85,7 @@ export const SubInfo = () => {
         justifyContent: "flex-end",
       }}
     >
-      <EndDate />
+      <EndDate countdown={countdown} />
     </View>
   );
 };

@@ -28,7 +28,7 @@ const NFTCard = ({ data }) => {
         />
         <CircleButton imgUrl={assets.heart} right={10} top={10} />
       </View>
-      <SubInfo />
+      <SubInfo countdown={data.countdown} />
       <View style={{ width: "100%", padding: SIZES.font }}>
         <NFTTitle 
           title={data.name} 
