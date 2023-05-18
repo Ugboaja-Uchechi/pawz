@@ -20,7 +20,7 @@ const HomeHeader = ({ onSearch }) => {
             color: '#fff',
           }}
         >
-          Let’s find masterpiece Art
+          Let’s find a masterpiece Art
         </Text>
       </View>
 

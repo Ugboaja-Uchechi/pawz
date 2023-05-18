@@ -7,11 +7,11 @@ export const COLORS = {
 };
 
 export const SIZES = {
-  base: 8,
-  small: 12,
-  font: 14,
-  medium: 16,
-  large: 18,
+  base: 10,
+  small: 14,
+  font: 16,
+  medium: 18,
+  large: 20,
   extraLarge: 24,
 };
 
