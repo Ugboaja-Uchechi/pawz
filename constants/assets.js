@@ -1,5 +1,5 @@
 import search from "../assets/icon/search.png";
-import eth from "../assets/icon/eth.png";
+import chr from "../assets/icon/chr.png";
 import heart from "../assets/icon/heart.png";
 
 import rhino1 from "../assets/images/1.png";
@@ -78,7 +78,7 @@ import cars36 from "../assets/images/2000.png";
 
 export default {
   heart,
-  eth,
+  chr,
   search,
 
   rhino1,
