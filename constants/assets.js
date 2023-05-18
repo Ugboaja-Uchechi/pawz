@@ -1,3 +1,7 @@
+import search from "../assets/icon/search.png";
+import eth from "../assets/icon/eth.png";
+import heart from "../assets/icon/heart.png";
+
 import rhino1 from "../assets/images/1.png";
 import rhino2 from "../assets/images/2.png";
 import rhino3 from "../assets/images/3.png";
@@ -73,6 +77,10 @@ import cars35 from "../assets/images/1999.png";
 import cars36 from "../assets/images/2000.png";
 
 export default {
+  heart,
+  eth,
+  search,
+
   rhino1,
   rhino2,
   rhino3,

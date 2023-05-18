@@ -1,5 +1,6 @@
 import { View, Text, Image, TextInput } from 'react-native';
-import { COLORS, FONTS, SIZES, assets } from '../constants';
+import { SIZES, COLORS } from '../constants/theme';
+import assets from '../constants/assets';
 
 // Header
 
@@ -7,7 +8,6 @@ const HomeHeader = ({ onSearch }) => {
   return (
     <View
       style={{
-        backgroundColor: COLORS.primary,
         padding: SIZES.font,
       }}
     >
@@ -15,10 +15,9 @@ const HomeHeader = ({ onSearch }) => {
       <View style={{ marginVertical: SIZES.font }}>
         <Text
           style={{
-            fontFamily: FONTS.bold,
             fontSize: SIZES.large,
-            color: COLORS.white,
-            marginTop: SIZES.base / 2,
+            marginTop: 30,
+            color: '#fff',
           }}
         >
           Let’s find masterpiece Art
@@ -33,6 +32,8 @@ const HomeHeader = ({ onSearch }) => {
             backgroundColor: COLORS.gray,
             flexDirection: "row",
             alignItems: "center",
+            paddingHorizontal: SIZES.font,
+            paddingVertical: SIZES.small - 2,
           }}
         >
           <Image

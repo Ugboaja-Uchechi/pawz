@@ -1,14 +1,15 @@
-import { View, Image, StyleSheet } from 'react-native'
-import { COLORS, SHADOWS, SIZES, assets } from '../constants'
-import { CircleButton } from './Button'
-import { SubInfo, EthPrice, NFTTitle } from './SubInfo'
+import { View, Image, StyleSheet } from 'react-native';
+import { SIZES, SHADOWS, COLORS } from '../constants/theme';
+import assets from '../constants/assets';
+import { CircleButton } from './Button';
+import { SubInfo, EthPrice, NFTTitle } from './SubInfo';
 
 const NFTCard = ({ data }) => {
   return (
     <View style={{
-      backgroundColor: COLORS.white,
       borderRadius: SIZES.font,
       marginBottom: SIZES.extraLarge,
+      backgroundColor: COLORS.white,
       margin: SIZES.base,
       ...SHADOWS.dark
     }}>
@@ -31,7 +32,6 @@ const NFTCard = ({ data }) => {
       <View style={{ width: "100%", padding: SIZES.font }}>
         <NFTTitle 
           title={data.name} 
-          subTitle={data.creator} 
           titleSize={SIZES.large} 
           subTitleSize={SIZES.small} 
         />

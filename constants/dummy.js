@@ -1,5 +1,4 @@
 import assets from "./assets";
-
 const NFTData = [
   {
     id: "NFT-01",
@@ -240,20 +239,20 @@ const NFTData = [
     image: assets.rhino2,
   },
   {
-    id: "NFT-038",
+    id: "NFT-039",
     price: 7.95,
     name: "Rhino #3",
     image: assets.rhino3,
   },
   {
-    id: "NFT-039",
+    id: "NFT-040",
     price: 7.95,
     name: "Rhino #4",
     image: assets.rhino4,
 
   },
   {
-    id: "NFT-040",
+    id: "NFT-041",
     price: 7.95,
     name: "Rhino #5",
     image: assets.rhino5,
