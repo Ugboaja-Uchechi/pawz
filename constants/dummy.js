@@ -6,6 +6,7 @@ const NFTData = [
     name: "Cars #176",
     image: assets.cars1,
     countdown: '12h 30m',
+    creator: "Putri Intan",
   },
   {
     id: "NFT-02",
@@ -13,6 +14,7 @@ const NFTData = [
     name: "Cars #452",
     image: assets.cars2,
     countdown: '1h',
+    creator: "Siti Nurhaliza",
   },
   {
     id: "NFT-03",
@@ -20,6 +22,7 @@ const NFTData = [
     name: "Cars #301",
     image: assets.cars3,
     countdown: '22m',
+    creator: "Putri Intan",
   },
   {
     id: "NFT-04",
@@ -27,6 +30,7 @@ const NFTData = [
     name: "Cars #024",
     image: assets.cars4,
     countdown: '6h 29m',
+    creator: "Siti Nurhaliza",
   },
   {
     id: "NFT-05",
@@ -34,6 +38,7 @@ const NFTData = [
     name: "Cars #576",
     image: assets.cars5,
     countdown: '30s',
+    creator: "Putri Intan",
 
   },
   {
@@ -42,6 +47,7 @@ const NFTData = [
     name: "Cars #666",
     image: assets.cars6,
     countdown: '1d 10h',
+    creator: "Elisabeth aho",
 
   },
   {
@@ -50,6 +56,7 @@ const NFTData = [
     name: "Cars #371",
     image: assets.cars7,
     countdown: '10d 5h',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-08",
@@ -57,6 +64,7 @@ const NFTData = [
     name: "Cars #098",
     image: assets.cars8,
     countdown: '15m',
+    creator: "Siti Nurhaliza",
   },
   {
     id: "NFT-09",
@@ -64,6 +72,7 @@ const NFTData = [
     name: "Cars #145",
     image: assets.cars9,
     countdown: '7d 1hr',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-010",
@@ -71,6 +80,7 @@ const NFTData = [
     name: "Cars #100",
     image: assets.cars10,
     countdown: '50s',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-011",
@@ -78,6 +88,7 @@ const NFTData = [
     name: "Cars #110",
     image: assets.cars11,
     countdown: '9h 55s',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-012",
@@ -85,6 +96,7 @@ const NFTData = [
     name: "Cars #912",
     image: assets.cars12,
     countdown: '40m 10s',
+    creator: "David doe",
 
   },
   {
@@ -93,6 +105,7 @@ const NFTData = [
     name: "Cars #613",
     image: assets.cars13,
     countdown: '9h 40m',
+    creator: "David doe",
 
   },
   {
@@ -101,6 +114,7 @@ const NFTData = [
     name: "Cars #414",
     image: assets.cars14,
     countdown: '2d 5h',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-015",
@@ -108,6 +122,7 @@ const NFTData = [
     name: "Cars #215",
     image: assets.cars15,
     countdown: '12d 6h',
+    creator: "David doe",
   },
   {
     id: "NFT-016",
@@ -115,6 +130,7 @@ const NFTData = [
     name: "Cars #169",
     image: assets.cars16,
     countdown: '55s',
+    creator: "David doe",
   },
   {
     id: "NFT-017",
@@ -122,6 +138,7 @@ const NFTData = [
     name: "Cars #187",
     image: assets.cars17,
     countdown: '2hr 49m',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-018",
@@ -129,6 +146,7 @@ const NFTData = [
     name: "Cars #158",
     image: assets.cars18,
     countdown: '22m',
+    creator: "David doe",
   },
   {
     id: "NFT-019",
@@ -136,6 +154,7 @@ const NFTData = [
     name: "Cars #919",
     image: assets.cars19,
     countdown: '13d 5h',
+    creator: "David doe",
   },
   {
     id: "NFT-020",
@@ -143,6 +162,7 @@ const NFTData = [
     name: "Cars #201",
     image: assets.cars20,
     countdown: '44m',
+    creator: "David doe",
 
   },
   {
@@ -151,6 +171,7 @@ const NFTData = [
     name: "Cars #281",
     image: assets.cars21,
     countdown: '8d 45m',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-022",
@@ -158,6 +179,7 @@ const NFTData = [
     name: "Cars #022",
     image: assets.cars22,
     countdown: '5s',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-023",
@@ -165,6 +187,7 @@ const NFTData = [
     name: "Cars #203",
     image: assets.cars23,
     countdown: '60m',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-024",
@@ -172,6 +195,7 @@ const NFTData = [
     name: "Cars #240",
     image: assets.cars24,
     countdown: '24m 5s',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-025",
@@ -179,6 +203,7 @@ const NFTData = [
     name: "Cars #025",
     image: assets.cars25,
     countdown: '8s',
+    creator: "Siti Nurhaliza",
   },
   {
     id: "NFT-026",
@@ -186,6 +211,7 @@ const NFTData = [
     name: "Cars #426",
     image: assets.cars26,
     countdown: '10d 9h',
+    creator: "Siti Nurhaliza",
 
   },
   {
@@ -194,6 +220,7 @@ const NFTData = [
     name: "Cars #207",
     image: assets.cars27,
     countdown: '24h',
+    creator: "Siti Nurhaliza",
 
   },
   {
@@ -202,6 +229,7 @@ const NFTData = [
     name: "Cars #208",
     image: assets.cars28,
     countdown: '55m',
+    creator: "David doe",
   },
   {
     id: "NFT-029",
@@ -209,6 +237,7 @@ const NFTData = [
     name: "Cars #029",
     image: assets.cars29,
     countdown: '6s',
+    creator: "David doe",
   },
   {
     id: "NFT-030",
@@ -216,6 +245,7 @@ const NFTData = [
     name: "Cars #300",
     image: assets.cars30,
     countdown: '30m',
+    creator: "David doe",
   },
   {
     id: "NFT-031",
@@ -223,6 +253,7 @@ const NFTData = [
     name: "Cars #317",
     image: assets.cars31,
     countdown: '17d 2h',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-032",
@@ -230,6 +261,7 @@ const NFTData = [
     name: "Cars #302",
     image: assets.cars32,
     countdown: '40d 23h',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-033",
@@ -237,6 +269,7 @@ const NFTData = [
     name: "Cars #033",
     image: assets.cars33,
     countdown: '4d 5s',
+    creator: "Elisabeth aho",
 
   },
   {
@@ -245,6 +278,7 @@ const NFTData = [
     name: "Cars #685",
     image: assets.cars34,
     countdown: '34h 35m',
+    creator: "Leo Messi",
 
   },
   {
@@ -253,6 +287,7 @@ const NFTData = [
     name: "Cars #395",
     image: assets.cars35,
     countdown: '5m',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-036",
@@ -260,13 +295,15 @@ const NFTData = [
     name: "Cars #736",
     image: assets.cars36,
     countdown: '7h 36m',
+    creator: "Siti Nurhaliza",
   },
   {
     id: "NFT-037",
     price: 7.95,
-    name: "Rhino #1",
+    name: "Rhino #199",
     image: assets.rhino1,
-    countdown: '',
+    countdown: '22h 5m',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-038",
@@ -274,6 +311,7 @@ const NFTData = [
     name: "Rhino #255",
     image: assets.rhino2,
     countdown: '25d 6m',
+    creator: "Siti Nurhaliza",
   },
   {
     id: "NFT-039",
@@ -281,6 +319,7 @@ const NFTData = [
     name: "Rhino #003",
     image: assets.rhino3,
     countdown: '30m',
+    creator: "Siti Nurhaliza",
   },
   {
     id: "NFT-040",
@@ -288,6 +327,7 @@ const NFTData = [
     name: "Rhino #403",
     image: assets.rhino4,
     countdown: '8d 5h',
+    creator: "Leo Messi",
 
   },
   {
@@ -296,6 +336,7 @@ const NFTData = [
     name: "Rhino #145",
     image: assets.rhino5,
     countdown: '14m 55s',
+    creator: "David doe",
 
   },
   {
@@ -304,6 +345,7 @@ const NFTData = [
     name: "Rhino #060",
     image: assets.rhino6,
     countdown: '10m 59s',
+    creator: "David doe",
   },
   {
     id: "NFT-043",
@@ -311,6 +353,7 @@ const NFTData = [
     name: "Rhino #007",
     image: assets.rhino7,
     countdown: '7d 7h',
+    creator: "David doe",
   },
   {
     id: "NFT-044",
@@ -318,13 +361,15 @@ const NFTData = [
     name: "Rhino #918",
     image: assets.rhino8,
     countdown: '3m 8s',
+    creator: "David doe",
   },
   {
     id: "NFT-045",
     price: 7.95,
     name: "Rhino #9",
     image: assets.rhino9,
-    countdown: '',
+    countdown: '45m 10s',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-046",
@@ -332,6 +377,7 @@ const NFTData = [
     name: "Rhino #180",
     image: assets.rhino10,
     countdown: '8d 13h',
+    creator: "Elisabeth aho",
 
   },
   {
@@ -340,6 +386,7 @@ const NFTData = [
     name: "Rhino #101",
     image: assets.rhino11,
     countdown: '14d 45m',
+    creator: "Elisabeth aho",
 
   },
   {
@@ -348,6 +395,7 @@ const NFTData = [
     name: "Rhino #012",
     image: assets.rhino12,
     countdown: '40s',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-049",
@@ -355,6 +403,7 @@ const NFTData = [
     name: "Rhino #193",
     image: assets.rhino13,
     countdown: '19m 45s',
+    creator: "Leo Messi",
   },
   {
     id: "NFT-050",
@@ -362,6 +411,7 @@ const NFTData = [
     name: "Rhino #640",
     image: assets.rhino14,
     countdown: '1hr 0s',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-051",
@@ -369,6 +419,7 @@ const NFTData = [
     name: "Rhino #715",
     image: assets.rhino15,
     countdown: '2d 40s',
+    creator: "David doe",
   },
   {
     id: "NFT-052",
@@ -376,6 +427,7 @@ const NFTData = [
     name: "Rhino #196",
     image: assets.rhino16,
     countdown: '22h 6m',
+    creator: "David doe",
 
   },
   {
@@ -384,6 +436,7 @@ const NFTData = [
     name: "Rhino #417",
     image: assets.rhino17,
     countdown: '5hr 40m',
+    creator: "David doe",
 
   },
   {
@@ -392,6 +445,7 @@ const NFTData = [
     name: "Rhino #198",
     image: assets.rhino18,
     countdown: '1hr 0s',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-055",
@@ -399,6 +453,7 @@ const NFTData = [
     name: "Rhino #019",
     image: assets.rhino19,
     countdown: '4hr 33m',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-056",
@@ -406,6 +461,7 @@ const NFTData = [
     name: "Rhino #280",
     image: assets.rhino20,
     countdown: '22hr 50s',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-057",
@@ -413,6 +469,7 @@ const NFTData = [
     name: "Rhino #521",
     image: assets.rhino21,
     countdown: '6d 27m',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-058",
@@ -420,6 +477,7 @@ const NFTData = [
     name: "Rhino #220",
     image: assets.rhino22,
     countdown: '1hr 0s',
+    creator: "Victor de la Cruz",
 
   },
   {
@@ -428,6 +486,7 @@ const NFTData = [
     name: "Rhino #623",
     image: assets.rhino23,
     countdown: '1d 0s',
+    creator: "Victor de la Cruz",
 
   },
   {
@@ -436,6 +495,7 @@ const NFTData = [
     name: "Rhino #524",
     image: assets.rhino24,
     countdown: '33m 4s',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-061",
@@ -443,6 +503,7 @@ const NFTData = [
     name: "Rhino #255",
     image: assets.rhino25,
     countdown: '1hr 0s',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-062",
@@ -450,6 +511,7 @@ const NFTData = [
     name: "Rhino #296",
     image: assets.rhino26,
     countdown: '45hr 0s',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-063",
@@ -457,6 +519,7 @@ const NFTData = [
     name: "Rhino #367",
     image: assets.rhino27,
     countdown: '36m 4s',
+    creator: "Elisabeth aho",
   },
   {
     id: "NFT-064",
@@ -464,6 +527,7 @@ const NFTData = [
     name: "Rhino #289",
     image: assets.rhino28,
     countdown: '19m 0s',
+    creator: "Elisabeth aho",
 
   },
   {
@@ -472,6 +536,7 @@ const NFTData = [
     name: "Rhino #209",
     image: assets.rhino29,
     countdown: '18hr 0s',
+    creator: "Victor de la Cruz",
 
   },
   {
@@ -480,6 +545,7 @@ const NFTData = [
     name: "Rhino #430",
     image: assets.rhino30,
     countdown: '0s',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-067",
@@ -487,6 +553,7 @@ const NFTData = [
     name: "Rhino #319",
     image: assets.rhino31,
     countdown: '1hr 46m',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-068",
@@ -494,6 +561,7 @@ const NFTData = [
     name: "Rhino #432",
     image: assets.rhino32,
     countdown: '30m 8s',
+    creator: "Victor de la Cruz",
   },
   {
     id: "NFT-069",
@@ -501,6 +569,7 @@ const NFTData = [
     name: "Rhino #333",
     image: assets.rhino33,
     countdown: '22m 0s',
+    creator: "Putri Intan",
   },
   {
     id: "NFT-070",
@@ -508,6 +577,7 @@ const NFTData = [
     name: "Rhino #634",
     image: assets.rhino34,
     countdown: '55m 29s',
+    creator: "Putri Intan",
 
   },
   {
@@ -517,6 +587,7 @@ const NFTData = [
     image: assets.rhino35,
     countdown: '60s',
 
+    creator: "Putri Intan",
   },
   {
     id: "NFT-072",
@@ -524,6 +595,7 @@ const NFTData = [
     name: "Rhino #356",
     image: assets.rhino36,
     countdown: '45m 0s',
+    creator: "Putri Intan",
   },
 ];
 

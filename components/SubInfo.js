@@ -2,7 +2,7 @@ import { View, Text, Image } from 'react-native';
 import { SIZES, SHADOWS, COLORS } from '../constants/theme';
 import assets from '../constants/assets';
 
-export const NFTTitle = ({ title, titleSize }) => {
+export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
   return (
     <View>
       <Text
@@ -12,6 +12,14 @@ export const NFTTitle = ({ title, titleSize }) => {
         }}
       >
         {title}
+      </Text>
+      <Text
+        style={{
+          fontSize: subTitleSize,
+          color: COLORS.primary,
+        }}
+      >
+        by {subTitle}
       </Text>
 
     </View>
